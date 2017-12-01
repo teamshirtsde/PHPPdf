@@ -702,22 +702,22 @@ abstract class Node implements Drawable, NodeAware, \ArrayAccess, \Serializable
 
     public function getMarginTop()
     {
-        return $this->getAttributeDirectly('margin-top');
+        return (float) $this->getAttributeDirectly('margin-top');
     }
 
     public function getMarginLeft()
     {
-        return $this->getAttributeDirectly('margin-left');
+        return (float) $this->getAttributeDirectly('margin-left');
     }
 
     public function getMarginRight()
     {
-        return $this->getAttributeDirectly('margin-right');
+        return (float) $this->getAttributeDirectly('margin-right');
     }
 
     public function getMarginBottom()
     {
-        return $this->getAttributeDirectly('margin-bottom');
+        return (float) $this->getAttributeDirectly('margin-bottom');
     }
 
     /**
@@ -814,22 +814,22 @@ abstract class Node implements Drawable, NodeAware, \ArrayAccess, \Serializable
     
     public function getPaddingTop()
     {
-        return $this->getAttributeDirectly('padding-top');
+        return (float) $this->getAttributeDirectly('padding-top');
     }
     
     public function getPaddingBottom()
     {
-        return $this->getAttributeDirectly('padding-bottom');
+        return (float) $this->getAttributeDirectly('padding-bottom');
     }
     
     public function getPaddingLeft()
     {
-        return $this->getAttributeDirectly('padding-left');
+        return (float) $this->getAttributeDirectly('padding-left');
     }
     
     public function getPaddingRight()
     {
-        return $this->getAttributeDirectly('padding-right');
+        return (float) $this->getAttributeDirectly('padding-right');
     }
     
     protected function setLeft($left)
